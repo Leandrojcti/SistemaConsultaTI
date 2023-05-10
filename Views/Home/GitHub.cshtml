@@ -1,0 +1,32 @@
+﻿
+@page
+@using System.IO
+
+<h2>Github</h2>
+
+
+@{
+    // caminho do arquivo de texto
+    string caminho = "C:/Estudos Programação/SistemaConsulta/SistemaConsultaTI/ConteudosTXT/GitHub/GIT HUB PASSOS SALVAR.txt";
+
+    // ler o conteúdo do arquivo
+    var ListaLinhas = new List<string>();           //Cria uma lista de strings
+    using (var Leitura = new StreamReader(caminho))   //faz a Leiturs usando o StreamReader, pasando o caminho do arquivo como parametro
+    {
+        while (!Leitura.EndOfStream)                  //While Enquanto nao(!) chegar no final de todas as linhas faça:
+        {
+            var Linha = Leitura.ReadLine();          //faça: a leitura e armazena na variável Linha
+            ListaLinhas.Add(Linha);                //faça: adiciona (add) cada linha na lista "ListaLinhas"
+        }
+    }
+}
+
+<ol>
+    @foreach (var item in ListaLinhas)   //foreach para ler em uma lista enumerada(ol)
+    {
+        <li>@item</li> 
+    }
+
+</ol>
+
+
