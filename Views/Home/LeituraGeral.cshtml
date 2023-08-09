@@ -1,0 +1,13 @@
+﻿
+
+
+@model string[]
+
+<h5>Exibindo arquivo: @ViewData["NomeArquivo"] </h5>
+
+<hr />
+
+    @foreach (string linha in Model)
+    {
+         <p class="mb-2" > <pre> @linha </pre> </p>
+    }

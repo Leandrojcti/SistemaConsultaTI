@@ -8,70 +8,88 @@
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
+    asp-controller="Home" asp-action="Index"
 
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-
-
-        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class=" container-fluid">
             <ul class="navbar-nav mr-auto">
 
+                <!--Link Para Home-->
                 <li class="nav-item active">
-                    <a class="nav-link" asp-controller="Home" asp-action="Index"> Home <span class="sr-only">(página atual)</span></a>
+                    <a class="nav-link" href="index"> Home <span class="sr-only">(página atual)</span></a>
+                </li>
+
+                <!--Menu C# Curso Udemy-->
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        C# Udemy Exercícios
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="@Url.Action("LeituraGeral", new { NomeArquivo = "LogicaRecapitulacao" })">Recapitulação Lógica</a>
+                        <a class="dropdown-item" href="@Url.Action("LeituraGeral", new { NomeArquivo = "Classes" })">Classes</a>
+                        <a class="dropdown-item" href="@Url.Action("LeituraGeral", new { NomeArquivo = "Sobrecarga Encapsulamento" })">Sobrecarga/Encapsulamento</a>
+                        <a class="dropdown-item" href="@Url.Action("LeituraGeral", new { NomeArquivo = "Vetores Listas Matrizes" })">Vetores Listas Matrizes</a>
+                        <a class="dropdown-item" href="@Url.Action("LeituraGeral", new { NomeArquivo = "Tópicos Especiais" })">Tópicos Especiais DateTime</a>
+                        <a class="dropdown-item" href="@Url.Action("LeituraGeral", new { NomeArquivo = "Enumerações Composição" })">Enumerações Composição</a>
+                        <a class="dropdown-item" href="@Url.Action("LeituraGeral", new { NomeArquivo = "Herança e Polimorfismo" })">Herança e Polimorfismo</a>
+                        <a class="dropdown-item" href="@Url.Action("LeituraGeral", new { NomeArquivo = "Excessões" })">Excessões</a>
+                        <a class="dropdown-item" href="@Url.Action("LeituraGeral", new { NomeArquivo = "Arquivos" })">Arquivos</a>
+
+                    </div>
+
                 </li>
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        C# Curso Udemy
+                        C# Udemy Apoio PDF
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" asp-controller="Home" asp-action="LeituraTxt">Leitura Texto</a>
-                        
+                        <a class="dropdown-item" href="@Url.Action("LeituraPDF", new { NomePDF = "01 --- 14 paginas  02-introducao-csharp-dotnet" })">Introdução C#</a>
+                        <a class="dropdown-item" href="@Url.Action("LeituraPDF", new { NomePDF = "02 --- 37 paginas  03-recapitulacao-de-logica-de-programacao" })">Recaptulação Lógica</a>
+                        <a class="dropdown-item" href="@Url.Action("LeituraPDF", new { NomePDF = "03 --- 24 paginas 04-classes-atributos-metodos-static" })">Classes Atributos Metodos Static</a>
+                        <a class="dropdown-item" href="@Url.Action("LeituraPDF", new { NomePDF = "04 --- 23 paginas 05-construtores-this-sobrecarga-encapsulamento" })">Construtores This Sobrecarga Encapsulamento</a>
+                        <a class="dropdown-item" href="@Url.Action("LeituraPDF", new { NomePDF = "05 --- 42 paginas 06-memoria-arrays-listas" })">Memoria Arrays Listas</a>
+                        <a class="dropdown-item" href="@Url.Action("LeituraPDF", new { NomePDF = "06 --- 21 paginas 07-topicos-especiais-parte1" })">Topicos Especiais Parte1</a>
+                        <a class="dropdown-item" href="@Url.Action("LeituraPDF", new { NomePDF = "07 --- 10 paginas 01 08 +Introdução+ao+Git+e+Github+(slides)" })">Introdução ao Git e Github</a>
+                        <a class="dropdown-item" href="@Url.Action("LeituraPDF", new { NomePDF = "08 --- 14 paginas 09-enumeracoes-composicao" })">Enumeracões Composição</a>
+                        <a class="dropdown-item" href="@Url.Action("LeituraPDF", new { NomePDF = "09 --- 25 paginas 10-heranca-polimorfismo" })">Heranca Polimorfismo</a>
+                        <a class="dropdown-item" href="@Url.Action("LeituraPDF", new { NomePDF = "10 --- 13 paginas 11-tratamento-de-excecoes" })">Tratamento de Exceções</a>
+                        <a class="dropdown-item" href="@Url.Action("LeituraPDF", new { NomePDF = "11 --- 14 paginas 13 arquivos" })">Trabalhando com Arquivos</a>
+                        <a class="dropdown-item" href="@Url.Action("LeituraPDF", new { NomePDF = "12 --- 20 paginas 14 interfaces" })">Interfaces</a>
+                        <a class="dropdown-item" href="@Url.Action("LeituraPDF", new { NomePDF = "13 --- 21 paginas 15-generics-set-dictionary" })">Generics Set Dictionary</a>
+                        <a class="dropdown-item" href="@Url.Action("LeituraPDF", new { NomePDF = "14 --- 4 paginas 16 topicos-especiais-parte2" })">Topicos Especiais Parte2</a>
+                        <a class="dropdown-item" href="@Url.Action("LeituraPDF", new { NomePDF = "15 --- 31 paginas 17-lambda-delegates-linq" })">Lambda Delegates Linq</a>
+                        <a class="dropdown-item" href="@Url.Action("LeituraPDF", new { NomePDF = "16 --- 11 paginas  projeto-asp-net-core-mvc-ef_PT_BR" })">Projeto Asp Net Core mvc ef PT BR</a>
+                        <a class="dropdown-item" href="@Url.Action("LeituraPDF", new { NomePDF = "16 --- 11 paginas  projeto-asp-net-core-mvc-ef_US" })">Projeto Asp Net Core mvc ef US</a>
+                        <a class="dropdown-item" href="@Url.Action("LeituraPDF", new { NomePDF = "17 --- 5 paginas  entity-framework_US" })">Entity Framework US</a>
+
+
                     </div>
+
                 </li>
+
+
+                <!--Menu GitHub-->
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         GitHub
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" asp-controller="Home" asp-action="GitHub">Fazer Commit/Salvar</a>
-                        
+                        <a class="dropdown-item" href="@Url.Action("LeituraGeral", new { NomeArquivo = "Fazer Comit Salvar" })">Fazer Commit/Salvar</a>
+
                     </div>
                 </li>
+
 
             </ul>
 
         </div>
+
     </nav>
 
 
-
-
-    <!--
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">SistemaConsultaTI</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-    </header>
-          -->
 
     <div class="container">
         <main role="main" class="pb-3">
@@ -79,14 +97,44 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+
+    <footer class="border-top footer text-muted bg-light ">
         <div class="container">
-            &copy; 2023 - Sistema Consulta TI 
+            &copy; 2023 - Sistema Consulta TI
         </div>
     </footer>
+
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

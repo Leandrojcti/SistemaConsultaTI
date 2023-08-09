@@ -341,7 +341,6 @@ C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\obj\Debug\net5.0\Sist
 C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\obj\Debug\net5.0\SistemaConsultaTI.TagHelpers.output.cache
 C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\obj\Debug\net5.0\SistemaConsultaTI.RazorCoreGenerate.cache
 C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\obj\Debug\net5.0\Razor\Views\Home\LeituraTxt.cshtml.g.cs
 C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -355,4 +354,7 @@ C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\obj\Debug\net5.0\Sist
 C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\obj\Debug\net5.0\ref\SistemaConsultaTI.dll
 C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\obj\Debug\net5.0\SistemaConsultaTI.pdb
 C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\obj\Debug\net5.0\SistemaConsultaTI.genruntimeconfig.cache
-C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\obj\Debug\net5.0\Razor\Views\Home\GitHub.cshtml.g.cs
+C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\obj\Debug\net5.0\Razor\Views\Home\LeituraGeral.cshtml.g.cs
+C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\bin\Debug\net5.0\itextsharp.dll
+C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\obj\Debug\net5.0\Razor\Views\Home\LeituraPDF.cshtml.g.cs
