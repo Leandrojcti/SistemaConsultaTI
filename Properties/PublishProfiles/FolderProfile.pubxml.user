@@ -5,6 +5,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <_PublishTargetUrl>C:\Estudos Programação\SistemaConsultaPublish</_PublishTargetUrl>
-    <History>True|2023-05-10T01:12:04.2486792Z;</History>
+    <History>True|2024-01-14T15:49:25.0921541Z;False|2024-01-14T12:47:56.9553898-03:00;False|2024-01-14T12:45:49.1616353-03:00;False|2024-01-14T12:41:30.1251980-03:00;True|2023-05-09T22:12:04.2486792-03:00;</History>
+    <LastFailureDetails />
   </PropertyGroup>
 </Project>

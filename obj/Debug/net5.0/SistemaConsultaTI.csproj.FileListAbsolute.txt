@@ -5,7 +5,6 @@ C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\bin\Debug\net5.0\Sist
 C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\bin\Debug\net5.0\SistemaConsultaTI.runtimeconfig.json
 C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\bin\Debug\net5.0\SistemaConsultaTI.runtimeconfig.dev.json
 C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\bin\Debug\net5.0\SistemaConsultaTI.dll
-C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\bin\Debug\net5.0\ref\SistemaConsultaTI.dll
 C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\bin\Debug\net5.0\SistemaConsultaTI.pdb
 C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Antiforgery.dll
 C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
@@ -335,7 +334,6 @@ C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\obj\Debug\net5.0\Sist
 C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\obj\Debug\net5.0\SistemaConsultaTI.RazorAssemblyInfo.cache
 C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\obj\Debug\net5.0\SistemaConsultaTI.RazorAssemblyInfo.cs
 C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\obj\Debug\net5.0\staticwebassets\SistemaConsultaTI.StaticWebAssets.Manifest.cache
-C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\obj\Debug\net5.0\staticwebassets\SistemaConsultaTI.StaticWebAssets.xml
 C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\obj\Debug\net5.0\scopedcss\bundle\SistemaConsultaTI.styles.css
 C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\obj\Debug\net5.0\SistemaConsultaTI.TagHelpers.input.cache
 C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\obj\Debug\net5.0\SistemaConsultaTI.TagHelpers.output.cache
@@ -358,3 +356,11 @@ C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\obj\Debug\net5.0\Razo
 C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\bin\Debug\net5.0\BouncyCastle.Crypto.dll
 C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\bin\Debug\net5.0\itextsharp.dll
 C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\obj\Debug\net5.0\Razor\Views\Home\LeituraPDF.cshtml.g.cs
+C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\obj\Debug\net5.0\SistemaConsultaTI.sourcelink.json
+C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\obj\Debug\net5.0\refint\SistemaConsultaTI.dll
+C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\bin\Debug\net5.0\SistemaConsultaTI.StaticWebAssets.xml
+C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\obj\Debug\net5.0\staticwebassets\SistemaConsultaTI.StaticWebAssets.Pack.cache
+C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\obj\Debug\net5.0\staticwebassets\msbuild.SistemaConsultaTI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\obj\Debug\net5.0\staticwebassets\msbuild.build.SistemaConsultaTI.props
+C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.SistemaConsultaTI.props
+C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.SistemaConsultaTI.props
