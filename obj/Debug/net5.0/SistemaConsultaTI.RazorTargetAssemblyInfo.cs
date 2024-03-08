@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyProductAttribute("SistemaConsultaTI")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+434df00d3ffd1075a80d52fab161be2e26259caa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ffd3dd122ea4768121068f90e478f8713aa5f150")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistemaConsultaTI.Views")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 

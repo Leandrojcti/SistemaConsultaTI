@@ -358,7 +358,6 @@ C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\bin\Debug\net5.0\itex
 C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\obj\Debug\net5.0\Razor\Views\Home\LeituraPDF.cshtml.g.cs
 C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\obj\Debug\net5.0\SistemaConsultaTI.sourcelink.json
 C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\obj\Debug\net5.0\refint\SistemaConsultaTI.dll
-C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\bin\Debug\net5.0\SistemaConsultaTI.StaticWebAssets.xml
 C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\obj\Debug\net5.0\staticwebassets\SistemaConsultaTI.StaticWebAssets.Pack.cache
 C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\obj\Debug\net5.0\staticwebassets\msbuild.SistemaConsultaTI.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Estudos Programação\SistemaConsulta\SistemaConsultaTI\obj\Debug\net5.0\staticwebassets\msbuild.build.SistemaConsultaTI.props
